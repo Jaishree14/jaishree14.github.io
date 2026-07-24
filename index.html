@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaishree Saraswat — Data &amp; Cloud Engineer</title>
+<meta name="description" content="Jaishree Saraswat — Data Engineer / Cloud Engineer / AI Engineer portfolio. Pipelines, streaming systems, and ML in production.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="nav-mark" href="#top">JS<span class="dot">.</span></a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Cloud &amp; Data Engineering · Analytics · AI</p>
+      <h1>Jaishree Saraswat</h1>
+      <p class="hero-lede">
+        I build the systems that move raw data to production &mdash;
+        cloud pipelines, streaming infrastructure, and the models that sit on top of them.
+      </p>
+      <p class="hero-roles">
+        Open to <strong>Cloud Engineer</strong>, <strong>Data Engineer</strong>,
+        <strong>Data Analyst</strong>, <strong>Data Scientist</strong> &amp;
+        <strong>AI Engineer</strong> roles.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+
+     <div class="hero-diagram" aria-hidden="true">
+      <svg viewBox="0 0 560 260" class="pipeline-svg" role="img" aria-label="Pipeline diagram: Ingest, Transform, Model, Serve">
+        <!-- backbone -->
+        <path class="flow-line flow-line--main" d="M94,60 C160,60 220,190 290,190 C330,190 350,130 380,80 C405,40 450,60 500,60" />
+ 
+        <!-- nodes -->
+        <g class="node" transform="translate(60,60)">
+          <circle r="34" />
+          <text y="-46" class="node-label">Ingest</text>
+          <text y="6" class="node-sub">S3 / ADLS</text>
+        </g>
+        <g class="node" transform="translate(290,190)">
+          <circle r="34" />
+          <text y="58" class="node-label">Transform</text>
+          <text y="6" class="node-sub">Spark</text>
+        </g>
+        <g class="node node--accent" transform="translate(380,80)">
+          <circle r="34" />
+          <text y="-46" class="node-label">Model</text>
+          <text y="6" class="node-sub">Python / ML</text>
+        </g>
+        <g class="node" transform="translate(500,60)">
+          <circle r="34" />
+          <text y="-46" class="node-label">Serve</text>
+          <text y="6" class="node-sub">API / Dash</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <p class="section-eyebrow">About</p>
+    <div class="section-grid">
+      <h2 class="section-heading">Three years of turning<br>raw data into systems people trust.</h2>
+      <div class="section-body">
+        <p>
+          I'm a software engineer with 3+ years of professional experience. My background spans cloud data
+          platforms, large-scale ETL, and applied machine learning. I worked at
+          <strong>Deloitte USI</strong>, where I worked as an Analyst on cloud and data engineering
+          projects, and at <strong>Fraunhofer IOSB-AST</strong>, where I worked as a Deep Learning
+          Research Intern.
+        </p>
+        <p>
+          I like problems that sit at the boundary between infrastructure and modeling: getting data
+          reliably from source to warehouse, and getting a model reliably from notebook to production.
+          <!-- EDIT ME: add a sentence on what kind of role/team you're looking for next -->
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <p class="section-eyebrow">Skills</p>
+    <h2 class="section-heading">A stack built for the full data lifecycle.</h2>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Cloud &amp; Infrastructure</h3>
+        <ul class="pill-list">
+          <li>Azure</li><li>GCP</li><li>Snowflake</li><li>Docker</li><li>CI/CD</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Data Engineering</h3>
+        <ul class="pill-list">
+          <li>Apache Spark</li><li>Kafka</li><li>Airflow</li><li>SQL</li><li>ETL / ELT design</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Data Science &amp; AI</h3>
+        <ul class="pill-list">
+          <li>Python</li><li>Machine Learning</li><li>Deep Learning</li><li>Reservoir Computing</li><li>Statistical Analysis</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Analytics &amp; Tools</h3>
+        <ul class="pill-list">
+          <li>Git</li><li>Power BI</li><li>Pandas</li><li>Data Visualization</li><li>A/B Testing</li>
+        </ul>
+      </div>
+    </div>
+    <!-- EDIT ME: adjust pills above to match your actual proficiency / add tools you've used -->
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <p class="section-eyebrow">Experience</p>
+    
+
+    <ol class="timeline">
+
+      <li class="timeline-item">
+        <span class="timeline-index">01</span>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Deep Learning Research Intern</h3>
+            <span class="timeline-org">Fraunhofer IOSB-AST</span>
+            <span class="timeline-date"><!-- EDIT ME: dates -->[April 2025] – [September 2025]</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Researched deep learning approaches for underwater robotics.</li>
+            <li>Prototyped and evaluated model architectures against baseline methods.</li>
+            <li>Documented findings for the research group and contributed to internal reporting.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <span class="timeline-index">02</span>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Analyst — Cloud &amp; Data Engineer</h3>
+            <span class="timeline-org">Deloitte USI</span>
+            <span class="timeline-date"><!-- EDIT ME: dates -->[August 2022] – [October 2023]</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Built and maintained cloud-based data pipelines for client analytics platforms.<!-- EDIT ME --></li>
+            <li>Designed ETL workflows to ingest, clean, and transform large datasets for downstream reporting.</li>
+            <li>Collaborated with cross-functional teams to translate business requirements into data models.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <span class="timeline-index">03</span>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Technical Intern</h3>
+            <span class="timeline-org">Deloitte USI</span>
+            <span class="timeline-date"><!-- EDIT ME: dates -->[January 2022] – [June 2022]</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Supported data engineering projects across Azure/AWS. <!-- EDIT ME --></li>
+            <li>Assisted in building automated data validation and quality checks.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="section-eyebrow">Projects</p>
+    <h2 class="section-heading">Selected work.</h2>
+    <p class="section-note">
+      A collection of projects that showcase my passion for building impactful, scalable, and user-centric solutions.
+      <!-- EDIT ME: replace all bracketed content in this section -->
+    </p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Data Engineering</span>
+          <span class="status status--live">production</span>
+        </div>
+        <h3>Cloud Data Warehouse Pipeline</h3>
+        <p>Engineered a robust cloud data pipeline with AWS and Snowflake to streamline data ingestion, transformation, and warehousing.
+            <br>Improved data accessibility and performance by building efficient, scalable ETL workflows for business intelligence.</p>
+        <ul class="stack-list">
+          <li>AWS</li><li>Snowflake</li><li>Airflow</li><li>SQL</li>
+        </ul>
+        <a class="project-link" href="#" target="_blank" rel="noopener">Repo →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Streaming</span>
+          <span class="status status--live">production</span>
+        </div>
+        <h3>Real-Time Streaming Pipeline</h3>
+        <p>Developed a Kafka-based streaming pipeline with Python to ingest and process financial transaction events in real time.
+            <br>Implemented fault-tolerant stream processing to support operational monitoring, reporting, and downstream analytics.</p>
+        <ul class="stack-list">
+          <li>Kafka</li><li>Spark Structured Streaming</li><li>Python</li>
+        </ul>
+        <a class="project-link" href="#" target="_blank" rel="noopener">Repo →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Machine Learning</span>
+          <span class="status status--complete">complete</span>
+        </div>
+        <h3>Customer Churn Prediction</h3>
+        <p>Built an AI-powered document processing system that extracts, summarizes, and answers questions from financial reports and policy documents using Retrieval-Augmented Generation (RAG).
+          <br>Deployed the solution with FastAPI and vector search to enable accurate, context-aware responses from enterprise documents.</p>
+        <ul class="stack-list">
+          <li>Python</li><li>scikit-learn</li><li>Feature Engineering</li>
+        </ul>
+        <a class="project-link" href="#" target="_blank" rel="noopener">Repo →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Research</span>
+          <span class="status status--progress">in progress</span>
+        </div>
+        <h3>Reservoir Computing for Memristive Devices</h3>
+        <p>Building a surrogate model with Echo State Networks to model memristive device behavior from voltage/current measurements, including hysteresis dynamics.</p>
+        <ul class="stack-list">
+          <li>ReservoirPy</li><li>Python</li><li>Signal Processing</li>
+        </ul>
+        <a class="project-link" href="#" target="_blank" rel="noopener">Repo →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section--tight" id="education">
+    <p class="section-eyebrow">Education</p>
+    <div class="edu-row">
+      <div>
+        <h3>Bachelor of Technology - Information Technology</h3>
+        <span class="timeline-org">Banasthali Vidyapith</span>
+      </div>
+      <span class="timeline-date">2018 - 2022</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <p class="section-eyebrow">Contact</p>
+    <h2 class="section-heading">Let's talk.</h2>
+    <p class="section-body-plain">
+      Open to Cloud Engineer, Data Engineer, Data Analyst, Data Scientist, and AI Engineer roles.
+      Reach out — I reply quickly.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:jaishree.saraswat.work@gmail.com" class="contact-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">jaishree.saraswat.work@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jaishreesaraswat/" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">in/jaishreesaraswat</span>
+      </a>
+      <a href="https://github.com/Jaishree14" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">Jaishree14</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Jaishree Saraswat</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
